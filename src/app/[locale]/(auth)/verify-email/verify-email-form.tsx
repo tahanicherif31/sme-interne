@@ -62,7 +62,7 @@ const VerifyEmailForm = () => {
 
     mutate({
       email,
-      code: Number(code),
+      code,
     });
   };
 

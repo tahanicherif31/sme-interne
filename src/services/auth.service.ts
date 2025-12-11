@@ -33,7 +33,7 @@ export type SignUpResponse = {
 
 export type ConfirmSignUpRequest = {
   email: string;
-  code: number;
+  code: string;
 };
 
 export type ForgotPasswordRequest = {
