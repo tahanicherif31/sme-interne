@@ -159,7 +159,6 @@ const checkUser = () => ({
 type ChangePasswordRequest = {
   oldPassword: string;
   newPassword: string;
-  confirmPassword: string;
   accessToken: string | undefined;
 };
 

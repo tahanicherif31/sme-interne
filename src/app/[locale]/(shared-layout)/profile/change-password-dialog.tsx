@@ -83,7 +83,8 @@ const ChangePasswordDialog = () => {
 
   const handleSubmit = async (data: ChangePasswordFormValues) => {
     const accessToken = await tokenUtils.getAccessToken();
-    mutate({ ...data, accessToken });
+    const { confirmPassword, ...rest } = data;
+    mutate({ ...rest, accessToken });
   };
 
   return (
