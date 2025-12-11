@@ -2,7 +2,6 @@
 
 import { useMemo, useRef, useState } from "react";
 import { useForm, useFormContext, useWatch } from "react-hook-form";
-import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
@@ -151,10 +150,24 @@ const EditProfileForm = ({ onCancel, onSuccess }: EditProfileFormProps) => {
         companyExport: values.companyExport,
         ownedByYouth: values.ownedByYouth,
         founderGender: values.founderGender,
-        maleEmployees: values.maleEmployees,
-        femaleEmployees: values.femaleEmployees,
-        femaleOwnedPercentage: values.femaleOwnedPercentage,
-        youthOwnedPercentage: values.youthOwnedPercentage,
+        ...(values.maleEmployees && {
+          maleEmployees:
+            typeof values.maleEmployees === "string"
+              ? Number(values.maleEmployees)
+              : values.maleEmployees,
+        }),
+        ...(values.femaleEmployees && {
+          femaleEmployees:
+            typeof values.femaleEmployees === "string"
+              ? Number(values.femaleEmployees)
+              : values.femaleEmployees,
+        }),
+        ...(values.femaleOwnedPercentage && {
+          femaleOwnedPercentage: String(values.femaleOwnedPercentage),
+        }),
+        ...(values.youthOwnedPercentage && {
+          youthOwnedPercentage: String(values.youthOwnedPercentage),
+        }),
         trainingNeeds: values.trainingNeeds,
         ...(values.trainingNeedsOther && {
           trainingNeedsOther: values.trainingNeedsOther,
@@ -177,9 +190,6 @@ const EditProfileForm = ({ onCancel, onSuccess }: EditProfileFormProps) => {
         businessLicenseFile: values.businessLicenseFile,
       },
     };
-
-    console.log({ formattedData });
-    // TODO: Call API with formattedData
     updateProfile(formattedData);
   };
 

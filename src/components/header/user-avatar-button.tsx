@@ -51,7 +51,7 @@ export default function UserAvatarButton() {
   if (!data) {
     return null;
   }
-  return null;
+
   console.log("data", data);
 
   const fullName = `${capitalizeFirstChar(

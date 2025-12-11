@@ -4,10 +4,14 @@ import { Pagination, HasPagination } from "./types";
 import { Company } from "@/types/company.types";
 
 export type UpdateProfileRequest = {
-  adminFirstName: string;
-  adminLastName: string;
-  adminEmail: string;
-  adminPhoneNumber: string;
+  profile: {
+    firstName: string;
+    lastName: string;
+    email: string;
+    phoneNumber: string;
+    profileImage?: File | string | null;
+  };
+  company: Partial<Company>;
 };
 
 export type GetAllUsersVariables = {
@@ -96,7 +100,7 @@ const updateProfile = () => ({
       method: "put",
       url: `${GraphqlEndpoints.USERS}/profile`,
       data,
-    }).then((res) => res.data as User),
+    }).then((res) => res.data as { profile: User; company: Company }),
 });
 
 /* -------------------------------------------------------------------------- */
