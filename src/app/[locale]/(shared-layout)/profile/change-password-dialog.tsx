@@ -24,6 +24,7 @@ import { useMutation } from "@tanstack/react-query";
 import api from "@/services";
 import { toast } from "sonner";
 import LoadingSpinner from "@/components/loadingSpinner";
+import { tokenUtils } from "@/services/utils.services";
 
 type ChangePasswordFormValues = z.infer<
   ReturnType<typeof createChangePasswordSchema>
@@ -80,8 +81,9 @@ const ChangePasswordDialog = () => {
     },
   });
 
-  const handleSubmit = (data: ChangePasswordFormValues) => {
-    mutate(data);
+  const handleSubmit = async (data: ChangePasswordFormValues) => {
+    const accessToken = await tokenUtils.getAccessToken();
+    mutate({ ...data, accessToken });
   };
 
   return (

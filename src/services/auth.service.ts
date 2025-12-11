@@ -160,17 +160,15 @@ type ChangePasswordRequest = {
   oldPassword: string;
   newPassword: string;
   confirmPassword: string;
+  accessToken: string | undefined;
 };
 
 const changePassword = () => ({
   key: (props?: any) => ["change-password", ...(props ? [props] : [])],
-  fn: async (data: ChangePasswordRequest) =>
+  fn: (data: ChangePasswordRequest) =>
     axiosInstance({
       method: "post",
       url: `${GraphqlEndpoints.AUTH}/change-password`,
-      headers: {
-        "Access-Token": `${await tokenUtils.getAccessToken()}`,
-      },
       data,
     }).then((res) => res.data),
 });
