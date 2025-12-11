@@ -43,7 +43,7 @@ const CardProfile = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-2 justify-between">
-        {data.company.profileComplete && (
+        {data.company.sectorIndustry.length === 0 && (
           <p className="text-xs font-medium bg-amber-50 text-amber-600 lg:w-2/3 p-2 rounded-xs">
             {t("dashboardPage.profileDetails")}
           </p>
