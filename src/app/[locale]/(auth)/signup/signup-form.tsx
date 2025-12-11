@@ -29,10 +29,10 @@ const SignupForm = () => {
       businessName: "",
       countryOfRegistration: "",
       businessRegistrationNumber: "",
-      adminFirstName: "",
-      adminLastName: "",
-      adminEmail: "",
-      adminPhoneNumber: "",
+      firstName: "",
+      lastName: "",
+      email: "",
+      phoneNumber: "",
       confirmPassword: "",
       acceptTerms: false,
       acceptPrivacy: false,
@@ -45,7 +45,7 @@ const SignupForm = () => {
     onSuccess: (data, variables) => {
       toast.success(t("common.signupSuccess") || "Signup successful!");
       // Redirect to email verification page with email in URL
-      const email = variables.adminEmail || variables.email;
+      const email = variables.email;
       router.push(`/verify-email?email=${encodeURIComponent(email)}`);
     },
     onError: (error: any) => {
@@ -88,7 +88,7 @@ const SignupForm = () => {
     const { confirmPassword, acceptTerms, acceptPrivacy, ...rest } = inputs;
     const data = {
       ...rest,
-      email: rest.adminEmail,
+      email: rest.email,
       captchaToken: recaptchaToken,
     };
 
@@ -161,26 +161,26 @@ const inputs: FieldProps<SignupFormType>[] = [
     wrapperClassName: "col-span-full",
   },
   {
-    name: "adminFirstName",
+    name: "firstName",
     label: "label.adminFirstName",
     fieldtype: "text",
     placeholder: "label.adminFirstName",
   },
   {
-    name: "adminLastName",
+    name: "lastName",
     label: "label.adminLastName",
     fieldtype: "text",
     placeholder: "label.adminLastName",
   },
   {
-    name: "adminEmail",
+    name: "email",
     label: "label.adminEmail",
     fieldtype: "text",
     placeholder: "label.adminEmail",
     type: "email",
   },
   {
-    name: "adminPhoneNumber",
+    name: "phoneNumber",
     label: "label.adminPhone",
     fieldtype: "phone",
   },

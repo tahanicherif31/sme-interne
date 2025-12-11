@@ -20,10 +20,9 @@ export type SignUpRequest = {
   businessName: string;
   countryOfRegistration: string;
   businessRegistrationNumber: string;
-  adminFirstName: string;
-  adminLastName: string;
-  adminEmail: string;
-  adminPhoneNumber: string;
+  firstName: string;
+  lastName: string;
+  phoneNumber: string;
   captchaToken: string;
 };
 

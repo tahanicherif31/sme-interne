@@ -7,13 +7,13 @@ export const signupSchema = z
     businessName: z.string().min(1, "validation.requiredField"),
     countryOfRegistration: z.string().min(1, "validation.requiredField"),
     businessRegistrationNumber: z.string().min(1, "validation.requiredField"),
-    adminFirstName: z.string().min(1, "validation.requiredField"),
-    adminLastName: z.string().min(1, "validation.requiredField"),
-    adminEmail: z
+    firstName: z.string().min(1, "validation.requiredField"),
+    lastName: z.string().min(1, "validation.requiredField"),
+    email: z
       .string()
       .min(1, "validation.requiredField")
       .email("validation.invalid"),
-    adminPhoneNumber: z.string().min(1, "validation.requiredField"),
+    phoneNumber: z.string().min(1, "validation.requiredField"),
     confirmPassword: z.string().min(1, "validation.requiredField"),
     acceptTerms: z.boolean().refine((val) => val === true, {
       message: "validation.requiredField",
