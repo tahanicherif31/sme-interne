@@ -180,7 +180,7 @@ const EditProfileForm = ({ onCancel, onSuccess }: EditProfileFormProps) => {
 
     console.log({ formattedData });
     // TODO: Call API with formattedData
-    // updateProfile(formattedData);
+    updateProfile(formattedData);
   };
 
   return (
@@ -359,7 +359,7 @@ const administratorInputs: FieldProps<EditProfileType>[] = [
     label: "label.adminEmail",
     fieldtype: "text",
     type: "email",
-    // disabled: true,
+    disabled: true,
   },
   {
     name: "phoneNumber",
