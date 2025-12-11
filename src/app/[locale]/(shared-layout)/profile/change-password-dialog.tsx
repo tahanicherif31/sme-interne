@@ -14,19 +14,29 @@ import {
   Dialog,
   DialogClose,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { createChangePasswordSchema } from "@/validation/profile";
+import { useMutation } from "@tanstack/react-query";
+import api from "@/services";
+import { toast } from "sonner";
+import LoadingSpinner from "@/components/loadingSpinner";
 
 type ChangePasswordFormValues = z.infer<
   ReturnType<typeof createChangePasswordSchema>
 >;
 
 const fields: FieldProps<ChangePasswordFormValues>[] = [
+  {
+    name: "oldPassword",
+    label: "label.oldPassword",
+    placeholder: "label.oldPassword",
+    fieldtype: "password",
+    autoComplete: "old-password",
+  },
   {
     name: "newPassword",
     label: "label.setNewPassword",
@@ -51,27 +61,42 @@ const ChangePasswordDialog = () => {
   const methods = useForm<ChangePasswordFormValues>({
     resolver: zodResolver(schema),
     defaultValues: {
+      oldPassword: "",
       newPassword: "",
       confirmPassword: "",
     },
   });
 
+  const { mutate, isPending } = useMutation({
+    mutationKey: api.auth.changePassword().key(),
+    mutationFn: api.auth.changePassword().fn,
+    onSuccess: () => {
+      toast.success(t("common.passwordChangedSuccess"));
+      setOpen(false);
+      methods.reset();
+    },
+    onError: (error: any) => {
+      toast.error(error.message);
+    },
+  });
+
   const handleSubmit = (data: ChangePasswordFormValues) => {
-    // TODO: Integrate with backend endpoint once available.
-    console.info("Submitting password change request", data);
-    methods.reset();
-    setOpen(false);
+    mutate(data);
   };
 
   return (
     <Dialog
       open={open}
-      onOpenChange={(value) => {
-        setOpen(value);
-        if (!value) {
-          methods.reset();
-        }
-      }}
+      onOpenChange={
+        isPending
+          ? undefined
+          : (value) => {
+              setOpen(value);
+              if (!value) {
+                methods.reset();
+              }
+            }
+      }
     >
       <DialogTrigger asChild>
         <Button className="bg-transparent text-primary hover:text-white border border-primary px-6 py-3 text-base font-medium hover:bg-primary transition-colors cursor-pointer">
@@ -98,6 +123,7 @@ const ChangePasswordDialog = () => {
               <DialogFooter className="sm:justify-end gap-4">
                 <DialogClose asChild>
                   <Button
+                    disabled={isPending}
                     type="button"
                     variant="outline"
                     className="border border-secondary text-secondary px-6 py-3 font-medium hover:bg-white/70"
@@ -107,8 +133,10 @@ const ChangePasswordDialog = () => {
                 </DialogClose>
                 <Button
                   type="submit"
+                  disabled={isPending}
                   className="bg-secondary text-primary px-6 py-3 font-medium cursor-pointer hover:bg-secondary/90"
                 >
+                  {isPending && <LoadingSpinner />}
                   <span>{t("buttons.saveChanges")}</span> <CircleCheck />
                 </Button>
               </DialogFooter>

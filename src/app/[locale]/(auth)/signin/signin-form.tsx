@@ -45,6 +45,7 @@ const SigninForm = () => {
     mutationFn: api.auth.signin().fn,
     onSuccess: (data) => {
       tokenUtils.setToken(data.idToken);
+      tokenUtils.setAccessToken(data.accessToken);
       profileMutation();
     },
     onError: () => {

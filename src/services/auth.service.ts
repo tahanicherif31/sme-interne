@@ -1,5 +1,6 @@
 import { User } from "@/types/user.types";
 import { axiosInstance, GraphqlEndpoints } from "./config";
+import { tokenUtils } from "./utils.services";
 
 export type SignInRequest = {
   email: string;
@@ -152,6 +153,29 @@ const checkUser = () => ({
 });
 
 /* -------------------------------------------------------------------------- */
+/*                               changePassword                               */
+/* -------------------------------------------------------------------------- */
+
+type ChangePasswordRequest = {
+  oldPassword: string;
+  newPassword: string;
+  confirmPassword: string;
+};
+
+const changePassword = () => ({
+  key: (props?: any) => ["change-password", ...(props ? [props] : [])],
+  fn: async (data: ChangePasswordRequest) =>
+    axiosInstance({
+      method: "post",
+      url: `${GraphqlEndpoints.AUTH}/change-password`,
+      headers: {
+        "Access-Token": `${await tokenUtils.getAccessToken()}`,
+      },
+      data,
+    }).then((res) => res.data),
+});
+
+/* -------------------------------------------------------------------------- */
 /*                                    me                                      */
 /* -------------------------------------------------------------------------- */
 
@@ -174,6 +198,7 @@ const auth = {
   signout,
   checkUser,
   me,
+  changePassword,
 };
 
 export default auth;

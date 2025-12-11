@@ -169,6 +169,7 @@ export const createChangePasswordSchema = (
 ) =>
   z
     .object({
+      oldPassword: z.string().min(1, { message: "validation.requiredField" }),
       newPassword: passwordSchema({
         requiredMessage: "validation.requiredField",
         requirementsMessage: "validation.passwordRequirements",
