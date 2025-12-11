@@ -1,0 +1,761 @@
+{
+  "locale": {
+    "en": "English",
+    "fr": "French",
+    "pt": "Portuguese",
+    "ar": "العربية"
+  },
+  "layout": {
+    "home": "Home",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "events": "Events",
+    "faqs": "FAQs",
+    "policy": "Privacy Policy",
+    "financingPage": "Financing",
+    "terms": "Terms of Use",
+    "connectWithUs": "Connect with Us",
+    "copyrights": "© 2025 Afreximbank. All rights reserved.",
+    "now": "Now"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "submit": "Submit",
+    "register": "Register {text}",
+    "startConnecting": "Start Connecting",
+    "getStarted": "Get Started Today",
+    "explore": "Explore {text}",
+    "save": "Save & Continue",
+    "back": "Back",
+    "clickUpload": "Click to upload",
+    "thanks": "Return to Home",
+    "backHome": "BACK TO HOMEPAGE",
+    "joinNetwork": "to join our network",
+    "SignIn": "Sign In",
+    "SignUp": "Sign Up",
+    "sendEmail": "Send Email",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "saveChanges": "Save changes",
+    "verify": "Verify Email"
+  },
+  "userMenu": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "training": "Training",
+    "logOut": "Log Out"
+  },
+  "common": {
+    "ctaTitleSection1": "Ready to Scale",
+    "ctaTitleSection2": " Your SME Across Africa?",
+    "acrossAfrica": "Across Africa",
+    "yourSme": "Your SME",
+    "financingPrograms": "our financing programs",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "descriptionSecc": "Your SME registration has been submitted successfully.",
+    "since": "Since 2023",
+    "in": "in 2024",
+    "forgotPassword": "Forgot your password",
+    "heroTitle1": "Empowering",
+    "heroTitle2": "African SMEs",
+    "heroTitle3": "for Global",
+    "heroTitle4": "Success",
+    "dontHaveAccount": "You don't have an account yet ?",
+    "alreadyHaveAccount": "You already have an account ?",
+    "acceptTerms": "I've read and accept the Terms & conditions",
+    "acceptTermsPrefix": "I've read and accept the",
+    "termsAndConditions": "Terms & Conditions",
+    "acceptPrivacy": "I've read and accept the Privacy Policy",
+    "acceptPrivacyPrefix": "I've read and accept the",
+    "privacyPolicy": "Privacy Policy",
+    "registerYourSME": "Register your SME",
+    "createAccount": "Create account",
+    "loginYourSME": "Login your SME",
+    "resetPassword": "Reset your password",
+    "resetPasswordSuccess": "Password reset successfully! You can now sign in.",
+    "resetPasswordError": "Failed to reset password. Please try again.",
+    "missingResetParams": "Missing email. Please use the link from your email.",
+    "loginError": "Login failed. Please check your credentials and try again.",
+    "forgotPasswordSuccess": "Password reset email sent successfully!",
+    "forgotPasswordError": "Failed to send password reset email. Please try again.",
+    "signupSuccess": "Signup successful!",
+    "signupError": "Signup failed. Please try again.",
+    "verifyEmail": "Verify Your Email",
+    "emailVerificationSuccess": "Email verified successfully!",
+    "emailVerificationError": "Email verification failed. Please try again.",
+    "logoutSuccess": "Logged out successfully",
+    "changePasswordTitle": "Change Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "loginToRegister": "Please login to register",
+    "applicationSubmittedSuccess": "Your application has been submitted successfully",
+    "applicationSubmissionFailed": "Failed to submit your application, please try again."
+  },
+  "HomePage": {
+    "heroTitle1": "Empowering African SMEs for",
+    "heroTitle2": "Global Success",
+    "description": "Access to finance, capacity-building, incubation, and market access opportunities through Afreximbank's comprehensive SME Development Programme. Your gateway to export success.",
+    "africa": "AFRICA",
+    "diaspora": "DIASPORA",
+    "caricom": "CARICOM",
+    "countries": "Countries",
+    "smeRegistered": "SMEs Registered",
+    "jobsCreated": "Direct Jobs Created",
+    "exportGrowth": "SMEs Trained",
+    "youthOwned": "Youth-led SMEs Trained",
+    "womenLed": "Women-led SMEs Trained",
+    "titleSection1": "Key Sectors We Cover",
+    "titleSection2": "Your Journey to Export Success starts here",
+    "titleSection3": "Simple steps to access financing and support services",
+    "descriptionSection1": "Afreximbank focuses on key sectors driving African economic transformation and export growth across the continent.",
+    "cardAgriculture": {
+      "title": "AGRIBUSINESS",
+      "description": "Sustainable farming, food production and innovative agri-solutions."
+    },
+    "cardManufacturing": {
+      "title": "MANUFACTURING",
+      "description": "Industrial processing, light manufacturing and value-added production."
+    },
+    "cardEnergy": {
+      "title": "RENEWABLE ENERGY",
+      "description": "Clean energy generation, sustainable utilities, and green infrastructure."
+    },
+    "cardCreatives": {
+      "title": "CREATIVE AND CULTURAL INDUSTRIES",
+      "description": "Design, fashion, art media and culturally inspired creative production."
+    },
+    "cardHospitality": {
+      "title": "HOSPITALITY",
+      "description": "Tourism and holistic experience-driven hospitality services."
+    },
+    "cardTransport": {
+      "title": "LOGISTICS",
+      "description": "Freight movement, supply-chain efficiency and integrated logistics networks."
+    },
+    "cardHealthcare": {
+      "title": "HEALTHCARE",
+      "description": "Medical services, pharmaceutical development and health-technology solutions."
+    },
+    "cardTechnology": {
+      "title": "TECHNOLOGY",
+      "description": "Digital innovation, tech-enabled services and scalable digital solutions."
+    },
+    "cardFinancialServices": {
+      "title": "FINANCIAL SERVICES / TECHNOLOGY (FINTECHS)",
+      "description": "Digital finance, payment innovations and tech-driven financial services."
+    },
+    "cardGoods": {
+      "title": "CONSUMER GOODS & RETAIL",
+      "description": "Consumer products and services delivered through modern retail experiences."
+    },
+    "cardEducation": {
+      "title": "TECHNICAL & INDUSTRIAL EDUCATION",
+      "description": "Vocational training and industry-focused technical education for building skilled talent. "
+    },
+    "cardAutomotive": {
+      "title": "AUTOMOTIVE",
+      "description": "Vehicle manufacturing, mobility solutions and automotive technology."
+    },
+    "cardBecome": {
+      "title": "BECOME EXPORT-READY",
+      "description": "Get the knowledge, tools, and support you need to confidently enter new markets."
+    },
+    "cardAccess": {
+      "title": "ACCESS TAILORED FINANCE",
+      "description": "Unlock funding solutions, including trade finance and factoring, designed to grow your export potential."
+    },
+    "cardGetDigitally": {
+      "title": "GET DIGITALLY VALIDATED",
+      "description": "Build trust with buyers and investors through secure digital KYC and business verification."
+    },
+    "cardConnect": {
+      "title": "CONNECT & EXPAND YOUR NETWORK",
+      "description": "Join a Global African SME ecosystem to access new markets, partners, and global value chains."
+    },
+    "step1": {
+      "title": "Apply",
+      "description": "Submit your SME application through our Financial intermediaries to access financing"
+    },
+    "step2": {
+      "title": "Assessement",
+      "description": "Credit scoring and risk evaluation supported by our partners"
+    },
+    "step3": {
+      "title": "Approval",
+      "description": "Receive financing decision and terms"
+    },
+    "step4": {
+      "title": "Support",
+      "description": "Access ongoing incubation and market services"
+    },
+    "message": "SMEs play a critical role in unlocking the potential of our continent",
+    "author": "Mrs. Kanayo Awani",
+    "authorPosition": "Executive Vice President of the Intra-African Trade Bank",
+    "ctaDescriptionSection": "Join thousands of Global African businesses in unlocking access to finance, gaining expert support, and expanding market access through our powerful growth and export programs."
+  },
+  "OurServicesPage": {
+    "heroTitle": "Our Services",
+    "title": "Comprehensive SME Services",
+    "description": "Everything your SME needs to thrive in the African and global markets, all in one integrated platform.",
+    "cardFinancing": {
+      "title": "Financing Solutions",
+      "description": "Wholesale financing to financial intermediaries for on-lending to SMEs",
+      "item1": "Credit Lines",
+      "item2": "Factoring",
+      "item3": "Trade Finance",
+      "item4": "Guarantees"
+    },
+    "cardCapacity": {
+      "title": "Capacity Building",
+      "description": "Enhance your skills through online courses, masterclasses, and certifications",
+      "item1": "Incubators",
+      "item2": "Workshops",
+      "item3": "Accelerators",
+      "item4": "Mentorship"
+    },
+    "cardMarket": {
+      "title": "Market Access",
+      "description": "Connect with trade fairs, gain export support, and access new markets",
+      "item1": "Trade Fairs",
+      "item2": "Export Matching",
+      "item3": "B2B Events",
+      "item4": "Export Support"
+    },
+    "cardPolicy": {
+      "title": "Policy Advocacy",
+      "description": "Join our incubator for mentoring, networking, and business development",
+      "item1": "Mentoring",
+      "item2": "Business Plans",
+      "item3": "Networking",
+      "item4": "Market Entry"
+    },
+    "descriptionSection1": "Join thousands of Global African businesses in unlocking funding, expert support, and market access through our powerful growth and export programs."
+  },
+  "EventsPage": {
+    "title": "Events",
+    "pastEvents": "Past Events",
+    "upcomingEvents": "Upcoming Events",
+    "selectYear": "Select year",
+    "allYears": "All Years",
+    "clearYear": "Clear",
+    "noEventsFound": "No {type} found{year}",
+    "for": "for",
+    "previous": "Previous",
+    "next": "Next",
+    "showingEvents": "Showing {start} of {total} events"
+  },
+  "eventDetailPage": {
+    "title": "African SME Trade & Investment Summit 2025",
+    "badge": "Upcoming Event",
+    "description": "Join us for an exclusive event bringing together African SMEs, investors, and industry leaders to explore opportunities for growth and collaboration.",
+    "longDescription": "The African SME Trade & Investment Summit 2025 is a premier event designed to connect small and medium enterprises across Africa with financing opportunities, capacity-building resources, and market access solutions.\n\nThis comprehensive summit will feature keynote presentations from industry leaders, interactive workshops on export strategies, networking sessions with potential partners and investors, and one-on-one consultations with financing intermediaries.\n\nWhether you're looking to expand your business, access new markets, or secure financing for growth, this event provides the platform and resources you need to take your SME to the next level.",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "aboutEvent": "About This Event",
+    "ctaTitle": "Ready to Join Us?",
+    "ctaDescription": "Don't miss this opportunity to connect with industry leaders and take your business to the next level. Register now to secure your spot.",
+    "eventsBadge": "EVENTS",
+    "registerNow": "Register Now",
+    "inPartnershipWith": "In Partnership with:",
+    "registrationSuccess": "You are now registered for this event",
+    "registrationFailed": "Failed to register for this event, please try again.",
+    "loginToRegister": "Please login to register for this event",
+    "alreadyRegistered": "You are already registered for this event"
+  },
+  "financingPage": {
+    "badge": "Financing Solutions",
+    "title": "Unlock Growth with",
+    "highlightedTitle": "Access to Finance",
+    "description": "Access comprehensive financing solutions designed specifically for African SMEs through our financing intermediaries. From trade finance to growth capital, we provide the funding you need to scale your business.",
+    "totalFin": "Total Financing",
+    "smeFin": "SMEs Trained",
+    "successRate": "Youth-led SMEs Trained",
+    "countries": "Women-led SMEs Trained",
+    "services": {
+      "tradeFinance": {
+        "title": "Trade Finance",
+        "description": "Letters of credit, trade guarantees, and export financing solutions",
+        "creditLines": "Credit Lines",
+        "factoring": "Factoring",
+        "tradeFinance": "Trade Finance",
+        "guarantees": "Guarantees"
+      },
+      "workingCapital": {
+        "title": "Working Capital",
+        "description": "Short-term financing for operational expenses and inventory management",
+        "inventoryFinancing": "Inventory Financing",
+        "accountsReceivable": "Accounts Receivable",
+        "seasonalFunding": "Seasonal Funding",
+        "cashFlowSupport": "Cash Flow Support"
+      },
+      "equipmentFinance": {
+        "title": "Equipment Finance",
+        "description": "Asset-based financing for machinery, equipment, and technology upgrades",
+        "machineryLoans": "Machinery Loans",
+        "equipmentLeasing": "Equipment Leasing",
+        "technologyUpgrades": "Technology Upgrades",
+        "assetRefinancing": "Asset Refinancing"
+      },
+      "growthCapital": {
+        "title": "Growth Capital",
+        "description": "Long-term financing for expansion, acquisitions, and strategic investments",
+        "businessExpansion": "Business Expansion",
+        "marketEntry": "Market Entry",
+        "acquisitions": "Acquisitions",
+        "strategicInvestments": "Strategic Investments"
+      }
+    },
+    "financingProducts": "Financing Products",
+    "productsDescription": "Our comprehensive range of financing solutions are tailored to meet your specific business needs, through our financial intermediaries.",
+    "solutions": {
+      "competitiveRates": {
+        "title": "COMPETITIVE RATES",
+        "description": "Market-leading interest rates starting from 8.5% for qualified SMEs"
+      },
+      "fastProcessing": {
+        "title": "FAST PROCESSING",
+        "description": "Quick approval process with decisions within 10-15 business days"
+      },
+      "flexibleTerms": {
+        "title": "FLEXIBLE TERMS",
+        "description": "Customizable repayment terms from 3 months to 7 years"
+      },
+      "expertSupport": {
+        "title": "EXPERT SUPPORT",
+        "description": "Dedicated relationship managers and financial advisory services"
+      },
+      "panAfricanReach": {
+        "title": "PAN-AFRICAN REACH",
+        "description": "Financing available across all 54 African countries"
+      },
+      "riskMitigation": {
+        "title": "Risk Mitigation",
+        "description": "Comprehensive insurance and guarantee products available"
+      }
+    },
+    "financingTailored": "Financing Tailored for SMEs",
+    "financingDescription": " We understand the unique challenges facing African SMEs and provide tailored solutions to help you succeed.",
+    "initialApplication": "Initial Application",
+    "documentReview": "Document Review",
+    "creditAssessment": "Credit Assessment",
+    "approvalTerms": "Approval & Terms",
+    "disbursement": "Disbursement",
+    "explore": "Explore",
+    "impact": "Our Impact",
+    "applicationProcess": "Application Process",
+    "processDescription": "Our partners apply a streamlined application process that ensures quick decisions and fast access to funding."
+  },
+  "contactUsPage": {
+    "title": "Contact Us",
+    "description": "You can reach us via any of the contact options below.",
+    "address": "HQ Address:",
+    "addressDescription": "72B El-Maahad El-Eshteraky Street Roxy, Heliopolis, Cairo 11341, Egypt",
+    "contactUs": "Contact Us",
+    "phoneContact": " +234 808 100 01 43",
+    "contactUsDescription": " +20 224 564 1001 / +20 224 564 1002 / +20 224 564 1003"
+  },
+  "label": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "setNewPassword": "Set New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "message": "Message",
+    "contactName": "Contact Name (First and Last Name)",
+    "contactTitle": "Contact Title",
+    "contactPhone": "Contact Phone",
+    "companyName": "Company Name",
+    "websiteURL": "Website URL",
+    "companyContactName": "Company Contact Name",
+    "countryRegistration": "Country of Registration",
+    "yearRegistration": "Year of Registration",
+    "yearEstablished": "Year Established",
+    "registrationAddress": "Company Registration Type",
+    "sector": "Sector Focus",
+    "companyContactEmail": "Company Contact Email",
+    "companyContactPhone": "Company Contact Phone",
+    "selectCountry": "Select a Country",
+    "selectOption": "Select an Option",
+    "descriptionFile": "If Yes Please Upload your Business License or Operating Certificate (Allowed File Types: .png, .jpg, .jpeg, .pdf)",
+    "businessLicense": "Business License / Operating Certificate",
+    "companyExport": "Does your Company Export?",
+    "aged": "Owned by Youth (Aged 18-35)",
+    "complianceDeclarations": "Compliance Declarations",
+    "confirmationCompliance": "Confirm That Stated Information Is Accurate and True",
+    "notConfirmationCompliance": "No Involvement in Sanctioned Activities, Bribery, Money Laundering, or Terrorism Financing",
+    "memeberAssociation": "Are you Member of Any Association?",
+    "descriptionMemeberAssociation": "If Yes, Please Specify the Name of Association",
+    "male": "Male",
+    "female": "Female",
+    "total": "Total",
+    "numberEmployee": "Number of Fulltime Employees",
+    "founderGender": "Founder Gender",
+    "capacityBuilding": "Have you Taken Part in Any Afreximbank Capacity Building Program?",
+    "afreximbankIATFAttendance": "Have you Attended Afreximbank IATF Event?",
+    "placeHolderDescription": "If Yes, Please Specify Which Year/Edition",
+    "typeSponsorship": "Type of Sponsorship?",
+    "typeSponsorship1": "Self Sponsored",
+    "typeSponsorship2": "Afreximbank Sponsored",
+    "other": "Other",
+    "YYYY": "YYYY",
+    "percentage": "%",
+    "businessName": "Business Name",
+    "businessRegistrationNumber": "Business Registration / License Number",
+    "adminFirstName": "Administrator's First Name",
+    "adminLastName": "Administrator's Last Name",
+    "adminEmail": "Administrator's Email Address",
+    "adminPhone": "Administrator's Phone Number",
+    "verificationCode": "Verification Code",
+    "soleProprietorship": "Sole Proprietorship",
+    "limitedCompany": "Limited Company",
+    "partnership": "Partnership",
+    "cooperative": "Cooperative",
+    "informalUnregistered": "Informal / Unregistered",
+    "automotive": "Automotive",
+    "fashion": "Fashion",
+    "manufacturing": "Manufacturing",
+    "agriculture": "Agriculture",
+    "gastronomy": "Gastronomy",
+    "technology": "Technology",
+    "checkAllThatApply": "(Check All That Apply):",
+    "femaleOwned": "Female-Owned",
+    "youthOwned": "Youth-Owned (<35 Year)",
+    "ownershipComposition": "Ownership Composition:",
+    "trainingNeeds": "Training Needs:",
+    "startup": "Startup",
+    "accelerator": "Accelerator",
+    "incubator": "Incubator",
+    "mentorship": "Mentorship",
+    "na": "N/A",
+    "annualRevenueBracket": "Annual Revenue Bracket",
+    "revenue10k50k": "$10K-$50K",
+    "revenue50k250k": "$50K-$250K",
+    "revenue250k1m": "$250K-$1M",
+    "revenue1m10m": "$1M-$10M",
+    "receivedLoanBefore": "Have you Received a Loan Before?",
+    "loanSourceAndPurpose": "If Yes, Please Specify Source & Purpose",
+    "currentSourceOfFinance": "Current Source of Finance",
+    "savings": "Savings",
+    "microfinance": "Microfinance",
+    "bank": "Bank",
+    "govProgram": "Gov. Program",
+    "informalCredit": "Informal Credit",
+    "equityInvestor": "Equity/Investor",
+    "immediateFinancingNeeds": "Do you Have Immediate Financing Needs?",
+    "financingType": "Type of Financing Required?",
+    "debt": "Debt",
+    "equity": "Equity",
+    "financingPurpose": "Purpose of Financing?",
+    "workingCapital": "Working Capital",
+    "equipmentFinancing": "Equipment Financing",
+    "inventory": "Inventory",
+    "invoiceFinancing": "Invoice Financing",
+    "fundingNeedDuration": "Current Funding Need: (Duration)",
+    "lessThan6Months": "< 6 Months",
+    "6to12Months": "6-12 Months",
+    "1to2Years": "1-2 Years",
+    "2to3Years": "2-3 Years",
+    "fundingNeedAmount": "Current Funding Need: (Amount)",
+    "50k100k": "$50K-$100K",
+    "100k500k": "$100K-$500K",
+    "500k1m": "$500K-$1M",
+    "greaterThan1m": "> $1M"
+  },
+  "validation": {
+    "yearMustBe4Digits": "The year must be a 4-digit number",
+    "yearMustBeInPast": "The year must be in past",
+    "requiredField": "This field is required",
+    "invalid": "Invalid input",
+    "passwordMinLength": "Password must be at least 8 characters",
+    "passwordMismatch": "Passwords do not match",
+    "passwordRequirements": "Password must be at least 8 characters and contain at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character (@$!%*?&#)",
+    "passwordRequirementMinLength": "Minimum 8 characters",
+    "passwordRequirementUppercase": "At least 1 uppercase letter",
+    "passwordRequirementLowercase": "At least 1 lowercase letter",
+    "passwordRequirementNumber": "At least 1 number",
+    "passwordRequirementSpecialChar": "At least 1 special character (@$!%*?&#)",
+    "passwordStrength": "Password strength",
+    "passwordStrengthEnter": "Enter a password",
+    "passwordStrengthWeak": "Weak password",
+    "passwordStrengthMedium": "Medium password",
+    "passwordStrengthStrong": "Strong password",
+    "passwordMustContain": "Must contain:",
+    "requirementMet": "- Requirement met",
+    "requirementNotMet": "- Requirement not met",
+    "recaptchaFailed": "Security verification failed. Please try again."
+  },
+  "marketAccessPage": {
+    "badge": "Market Access Solutions",
+    "title": "Connect with Markets",
+    "highlightedTitle": "Across Africa & Beyond",
+    "description": "Unlock new business opportunities through our comprehensive market access platform. Connect with buyers, suppliers, and partners across 54 African countries and international markets. From trade fairs to digital marketplaces, we provide the tools and support you need to expand your reach.",
+    "marketConnection": "Market Connections",
+    "exportGrowth": "Export Growth",
+    "tradeEvents": "Trade Events",
+    "countriesReached": "Countries Reached",
+    "desc1": "B2B Connections Made",
+    "desc2": "Average Increase",
+    "desc3": "Annual Events",
+    "desc4": "African Markets",
+    "services": {
+      "tradeFairs": {
+        "title": "Trade Fairs & Exhibitions",
+        "subTitle": "Direct access to buyers and partners",
+        "description": "Access to major African and international trade fairs with subsidized participation",
+        "feat1": "Booth Subsidies",
+        "feat2": "Logistics Support",
+        "feat3": "Marketing Materials",
+        "feat4": "Networking Events"
+      },
+      "b2bMatchmaking": {
+        "title": "B2B Matchmaking",
+        "subTitle": "Qualified business connections",
+        "description": "AI-powered platform connecting SMEs with potential buyers, suppliers, and partners",
+        "feat1": "Smart Matching",
+        "feat2": "Virtual Meetings",
+        "feat3": "Deal Tracking",
+        "feat4": "Follow-up Support"
+      },
+      "exportServices": {
+        "title": "Export Support Services",
+        "subTitle": "Streamlined export processes",
+        "description": "Comprehensive support for export documentation, compliance, and logistics",
+        "feat1": "Documentation Support",
+        "feat2": "Compliance Guidance",
+        "feat3": "Logistics Coordination",
+        "feat4": "Quality Certification"
+      },
+      "digital": {
+        "title": "Digital Marketplace",
+        "subTitle": "24/7 global market presence",
+        "description": "Online platform showcasing African SME products to global buyers",
+        "feat1": "Product Catalog",
+        "feat2": "Buyer Inquiries",
+        "feat3": "Order Management",
+        "feat4": "Payment Processing"
+      }
+    },
+    "marketServices": "Our Market Access Services",
+    "servicesDescription": "Comprehensive solutions to help you reach new markets and grow your business",
+    "exportJourney": "Your Journey to Export Success starts here",
+    "journey": {
+      "strategic": {
+        "title": "STRATEGIC PARTNERSHIPS",
+        "description": "Long-term partnerships with major corporations and government agencies"
+      },
+      "network": {
+        "title": "DISTRIBUTOR NETWORK",
+        "description": "Access to established distribution channels across African markets"
+      },
+      "ventures": {
+        "title": "JOINT VENTURES",
+        "description": "Facilitated joint ventures with complementary businesses"
+      },
+      "franchise": {
+        "title": "FRANCHISE OPPORTUNITIES",
+        "description": "Support for franchise expansion across African markets"
+      }
+    },
+    "ctaTitle1": "Ready to Expand Your",
+    "ctaTitle2": "Market Reach ?",
+    "ctaHighlightedText": "Market Reach",
+    "ctaDescription": "Join thousands of African SMEs who have successfully expanded their markets through our platform.",
+    "exploreServices": "services"
+  },
+  "capacityBuildingPage": {
+    "badge": "Capacity Building",
+    "title": "Empowering SMEs with Skills",
+    "highlightedTitle": "for Growth",
+    "description": "More than training, it’s a strategic investment in African entrepreneurs, equipping them with the skills and confidence to scale, compete globally, and transform local markets into engines of sustainable growth.",
+    "empoweringSme": "Empowering SMEs with Skills, Tools, and Opportunities for Growth",
+    "descriptionSME": "The Capacity Building component of the Export SME Development Program (ESDP) is designed as an instrument of deliberate investment in the technical, managerial, and operational capacities of African SMEs and their ecosystem enablers. It responds to the manifest need for structured and context-relevant upskilling interventions that transcend generic business training. Programs are delivered in partnership with specialized technical institutions possessing a verifiable record of excellence in enterprise development and sectoral knowledge transfer.",
+    "coreBenef": "Core Beneficiaries",
+    "coreBenefDescription": "Driving Inclusive SME Growth",
+    "cards": {
+      "title1": "SMEs across sectors and regions",
+      "desc1": "From agribusiness to tech, SMEs are empowered to scale, innovate, and generate sustainable jobs.",
+      "title2": "Financial intermediaries supporting SME portfolios",
+      "desc2": "Banks and investors gain tools to better serve SMEs, ensuring finance flows where it drives real impact.",
+      "title3": "SME development agencies and business associations",
+      "desc3": "Business networks and agencies amplify support, building ecosystems where SMEs can thrive."
+    },
+    "trainingArea": "Training and Support Areas",
+    "trainingAreaDescription": "Our performance-based programs focus on seven key competencies to prepare SMEs for local and international expansion:",
+    "key1": "Export Development and Trade Facilitation",
+    "key2": "Business and Strategic Management",
+    "key3": "Capital Raising and Investment Readiness",
+    "key4": "Digital Transformation",
+    "key5": "Feasibility Analysis",
+    "key6": "Financial Management and Governance",
+    "key7": "Marketing Strategy",
+    "programs": {
+      "technicalAssistance": {
+        "title": "Technical Assistance to Financial Intermediaries (TA to FIs)",
+        "description": "We enhance the operational capacity of financial institutions to serve SMEs effectively by improving their end-to-end credit value chains. Focus areas include:",
+        "feat1": "SME banking strategy and product development",
+        "feat2": "Credit scoring and risk management",
+        "feat3": "Loan portfolio and MIS upgrades",
+        "duration": "Advisory support over 6–12 months",
+        "delivery": "On-site, hybrid, or remote",
+        "note": "Service dedicated to FIs"
+      },
+      "incubatorPrograms": {
+        "title": "Incubator Programs",
+        "description": "Designed for early-stage startups at the ideation or concept stage, incubators provide structured support through:",
+        "feat1": "Concept validation and business model refinement",
+        "feat2": "Sector-specific mentorship and advisory",
+        "feat3": "Peer learning and networking opportunities",
+        "duration": "6–12 months",
+        "delivery": "Onsite, Online, or Hybrid"
+      },
+      "acceleratorPrograms": {
+        "title": "Accelerator Programs",
+        "description": "Ideal for growth-stage startups with a viable product or early traction, accelerators offer:",
+        "feat1": "Strategic repositioning and growth planning",
+        "feat2": "Investor engagement preparation",
+        "feat3": "Market access facilitation and scale-readiness assessments",
+        "duration": "5–10 months",
+        "delivery": "Onsite, Online, or Hybrid"
+      }
+    },
+    "programstype": "Program Types",
+    "delivery": "Delivery",
+    "duration": "Duration",
+    "workshop": "Workshops & Seminars",
+    "workshopDescription1": "These short-duration interventions are curated to raise thematic awareness and stimulate dialogue around pressing developmental topics. Unlike the skill-intensive incubators and accelerators, workshops serve to distil knowledge and foster a shared understanding of contextual economic and industrial dynamics.",
+    "workshopDescription2": "Events are typically one-day, sector-focused, and aligned with Afreximbank’s overarching mandate of trade-driven development and financial inclusion."
+  },
+  "policyAdvocacyPage": {
+    "desc1": "Direct Jobs Created",
+    "desc2": "SMEs Trained",
+    "desc3": "Youth-led SMEs Trained",
+    "desc4": "Women-led SMEs Trained",
+    "badge": "Policy Advocacy",
+    "title": "Unlocking <highlight>SME Potential</highlight> Through Policy Action",
+    "description": "Through the Export SME Development Programme, Afreximbank champions policy reforms that empower SMEs to thrive, fueling innovation, competitiveness, and sustainable growth across Africa.",
+    "empoweringSme": "Advancing the Enabling Environment for SME Development through Strategic Policy Engagement",
+    "descriptionSME": "Within the framework of the Export SME Development Programme (ESDP), Policy Advocacy constitutes a critical pillar through which Afreximbank mobilizes strategic action to reshape the policy landscape underpinning SME performance across the African continent. It recognizes that no entrepreneurial ecosystem can flourish sustainably in the absence of coherent, enabling regulatory structures.",
+    "pillarDescription": "Through this pillar, we seek to :",
+    "key1": "Institutionalizing SME-friendly policy environments",
+    "key2": "Advance regional integration and intra-African trade",
+    "key3": "Enhance the legitimacy of SME concerns in public discourse",
+    "key4": "Promote socio-economic inclusion via enterprise support",
+    "coreAdvoc": "Core Advocacy Themes",
+    "coreAdvocDescription": "Our advocacy efforts are anchored on evidence-based identification of policy bottlenecks and institutional inefficiencies.",
+    "coreAdvocDescription2": " The focus areas include, but are not limited to:",
+    "cards": {
+      "title1": "Taxation Reform",
+      "desc1": "Advocating for simplified, progressive tax regimes conducive to SME sustainability",
+      "title2": "Intellectual Property Rights",
+      "desc2": "Strengthening IP protection frameworks to incentivize innovation and safeguard local enterprise",
+      "title3": "Regulatory Compliance Costs",
+      "desc3": "Engaging policymakers to streamline business registration and compliance processes",
+      "title4": "Cross-Border Harmonization",
+      "desc4": "Promoting regional coherence in trade and investment policies",
+      "title5": "Sector-Specific Policy Interventions",
+      "desc5": "Facilitating bespoke policy solutions tailored to strategic sectors and industrial clusters"
+    }
+  },
+  "registerPage": {
+    "title": "Register Your SME",
+    "step1": {
+      "title": "Individual Profile",
+      "description": "Please provide your personal information"
+    },
+    "step2": {
+      "title": "Company Profile",
+      "description": "Please provide your company information"
+    },
+    "step3": {
+      "title": "Business Information",
+      "description": "Please provide your business information"
+    },
+    "step4": {
+      "title": "Compliance Declarations",
+      "description": "Please confirm Compliance Declarations"
+    }
+  },
+  "404Page": {
+    "title": "Page Not Found",
+    "description": "We're sorry, the requested URL was not found on this server. Please go back to the home page !"
+  },
+  "profilePage": {
+    "title": "User Profile",
+    "profileDetails": "Profile details",
+    "changePasswordTitle": "Change Password",
+    "editProfile": "Edit Profile",
+    "administratorInfoTitle": "Administrator's Information",
+    "companyInfoTitle": "Company Information",
+    "complianceSectionTitle": "Compliance Declarations",
+    "allowedImageTypes": "Allowed file types : png, jpg, jpeg",
+    "profileAvatar": "Profile avatar"
+  },
+  "dashboardPage": {
+    "profileDetails": "Let’s first finish setting up your profile information to get full access to the dashboard"
+  },
+  "faqPage": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "q1": "What is the Afreximbank SME Portal?",
+    "a1": "The Afreximbank SME Portal is a one-stop-shop where African & Global African SMEs can access essential information and resources to grow and integrate into regional and global value chain on a sustainable basis.",
+    "q2": "What can an SME or business benefit from the platform?",
+    "a2": "The portal provides enables SMEs and businesses access various opportunities including capacity building and skill development, market access, networking, trade information and financing opportunities under the Afreximbank’ SME Development Programme.",
+    "q3": "How can an SME get maximum value or benefit from the platform?",
+    "a3": "An SME can get maximum value by registering and providing basic Know-Your-Customer (KYC) information, then you are all set!",
+    "q4": "Do I need to pay to have access to resources and other benefits on the portal?",
+    "a4": "Registration on the platform is free and you will have access to many valuable resources and opportunities to expand your business. However, some programmes or resources, including those offered by third parties may be paid for or discounted for your benefit.",
+    "q5": "How do I access financing as an SMEs?",
+    "a5": "Afreximbank extend financing to SMEs through local financial intermediaries (including commercial bank, local and regional development banks, merchant banks, microfinance banks, and other regulated non-bank financial institutions) across Africa and Global Africa . We partner with them to expand our financial interventions and reach to numerous small businesses, including you. You can check the list of financial intermediaries in your country to begin your financing journey.",
+    "q6": "How does Afreximbank define SMEs and those who benefit from your programmes?",
+    "a6": "Though, there are various definitions of SMEs across countries, institutions, and regions. However, Afreximbank holistic definition considers SMEs as businesses with annual revenue not exceeding US$10,000,000 or its equivalent in local currency.",
+    "q7": "Do you consider specific sectors?",
+    "a7": "Afreximbank SME programme is sector agnostic, but we prioritize the following: Agriculture/Agri-processing, Manufacturing, Technology, Healthcare, Financial services / Fintechs, Creative and Cultural Industries, Logistics, Consumer goods and Retail, Hospitality, Renewable energy, Automotive, Technical, Industrial Education and Ed-Tech.",
+    "q8": "I have heard about the Africa Trade Gateway. Please enlighten me.",
+    "a8": "Africa Trade Gateway (ATG) is a digital “single-window” ecosystem created by Afreximbank and the AfCFTA Secretariat to streamline and boost intra-African trade.It integrates five key platforms; MANSA for business due-diligence, PAPSS for cross-border payments in local currencies, TRADAR for market intelligence and networking, ATEX for B2B digital commerce, and ATG Connect for logistics coordination.Together, these tools reduce connect verified buyers and suppliers across the continent and support the practical implementation of the AfCFTA by reducing friction in trade.",
+    "q9": "What kind of training programmes are offered?",
+    "a9": "A diverse range of capacity-building programmes tailored to support business growth is available through the portal. These include workshops, accelerators, and incubators delivered virtually, in-person, or through hybrid formats. Each programme typically consists of specialized courses that are either sector-focused, country, region, or trade corridor-focused, or designed for specific constituencies such as youth or women.",
+    "q10": "Are courses or webinars available online?",
+    "a10": "Yes, most capacity-building programs—including workshops, accelerators, and incubators—are delivered either virtually or in a hybrid format. The delivery format is always indicated in the call for applications or other communications ahead of time.",
+    "q11": "Do I receive a certificate after completing the training? ",
+    "a11": "Yes, certificates are awarded for all capacity-building programs except workshops. Training programs such as accelerators and incubators are certified jointly by Afreximbank and the relevant training partner organization."
+  },
+  "training": {
+    "title": "Training",
+    "searchPlaceholder": "Search in the catalogue",
+    "formatFilter": "Format",
+    "allFormats": "All Formats",
+    "tagFilter": "Tag",
+    "allTags": "All Tags",
+    "noCoursesFound": "No courses found matching your criteria.",
+    "previous": "Previous",
+    "next": "Next",
+    "discover": "Discover",
+    "course": "Course",
+    "instructor": "Instructor:",
+    "overview": "Overview",
+    "skillsGained": "Skills Gained",
+    "courseOutline": "Course Outline",
+    "skillsGainedTitle": "By the end of this course, you will be able to:",
+    "noCourseOutline": "No course outline available.",
+    "sessionDate": "Session date",
+    "format": "Format",
+    "location": "Location",
+    "slotsAvailable": "Slots available",
+    "application": "Application",
+    "agreeTerms": "I agree to the Terms & Conditions.",
+    "readPrivacy": "I have read the Privacy Policy.",
+    "courseUpdates": "Send me course updates and newsletters.",
+    "submitApplication": "Submit Application",
+    "formatHybrid": "Hybrid",
+    "formatInPerson": "In-person",
+    "formatVirtual": "Virtual",
+    "formatFaceToFace": "Face To Face",
+    "mustLoginToApply": "You must be logged in to apply for this course"
+  }
+}

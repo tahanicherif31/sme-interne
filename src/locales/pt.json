@@ -1,0 +1,792 @@
+{
+  "locale": {
+    "en": "Inglês",
+    "fr": "Francês",
+    "pt": "Português",
+    "ar": "العربية"
+  },
+  "layout": {
+    "home": "Início",
+    "ourServices": "Nossos Serviços",
+    "contactUs": "Contacte-nos",
+    "events": "Eventos",
+    "faqs": "FAQs",
+    "policy": "Política de Privacidade",
+    "financingPage": "Financiamento",
+    "terms": "Termos de Uso",
+    "connectWithUs": "Conecte-se Conosco",
+    "copyrights": "© 2025 Afreximbank. Todos os direitos reservados.",
+    "now": "Agora"
+  },
+  "buttons": {
+    "learnMore": "Saiba Mais",
+    "submit": "Enviar",
+    "register": "Registrar {text}",
+    "startConnecting": "Comece a Conectar",
+    "getStarted": "Comece Hoje",
+    "explore": "Explorar {text}",
+    "save": "Salvar & Continuar",
+    "back": "Voltar",
+    "clickUpload": "Clique para carregar",
+    "thanks": "Retornar ao Início",
+    "backHome": "VOLTAR À PÁGINA INICIAL",
+    "joinNetwork": "para se juntar à nossa rede",
+    "SignIn": "Se conectar",
+    "SignUp": "Registrar",
+    "sendEmail": "Enviar email",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "saveChanges": "Salvar alterações",
+    "verify": "Verificar e-mail"
+  },
+  "userMenu": {
+    "dashboard": "Painel",
+    "profile": "Perfil",
+    "training": "Treinamento",
+    "logOut": "Sair"
+  },
+  "common": {
+    "ctaTitleSection1": "Pronto para Expandir",
+    "ctaTitleSection2": " Sua PME em Toda a África?",
+    "acrossAfrica": "em Toda a África",
+    "yourSme": "Sua PME",
+    "financingPrograms": "nossos programas de financiamento",
+    "yes": "Sim",
+    "no": "Não",
+    "loading": "Carregando...",
+    "thankYou": "Obrigado!",
+    "descriptionSecc": "O registro da sua PME foi enviado com sucesso.",
+    "since": "Desde 2023",
+    "in": "em 2024",
+    "forgotPassword": "Esqueceu sua senha?",
+    "heroTitle1": "Empoderando",
+    "heroTitle2": "PMEs Africanas",
+    "heroTitle3": "para o Sucesso",
+    "heroTitle4": "Global",
+    "dontHaveAccount": "Você não tem uma conta ainda?",
+    "alreadyHaveAccount": "Você já tem uma conta?",
+    "acceptTerms": "Li e aceito os Termos e Condições",
+    "acceptTermsPrefix": "Li e aceito os",
+    "termsAndConditions": "Termos e Condições",
+    "acceptPrivacy": "Li e aceito a Política de Privacidade",
+    "acceptPrivacyPrefix": "Li e aceito a",
+    "privacyPolicy": "Política de Privacidade",
+    "registerYourSME": "Registre sua PME",
+    "createAccount": "Criar conta",
+    "loginYourSME": "Conectar",
+    "resetPassword": "Redefinir sua senha",
+    "resetPasswordSuccess": "Senha redefinida com sucesso! Agora você pode fazer login.",
+    "resetPasswordError": "Falha ao redefinir a senha. Por favor, tente novamente.",
+    "missingResetParams": "Email ausente. Por favor, use o link do seu email.",
+    "loginError": "Falha no login. Por favor, verifique suas credenciais e tente novamente.",
+    "forgotPasswordSuccess": "Email de redefinição de senha enviado com sucesso!",
+    "forgotPasswordError": "Falha ao enviar o email de redefinição de senha. Por favor, tente novamente.",
+    "signupSuccess": "Cadastro realizado com sucesso!",
+    "signupError": "Falha no cadastro. Por favor, tente novamente.",
+    "verifyEmail": "Verifique seu e-mail",
+    "emailVerificationSuccess": "E-mail verificado com sucesso!",
+    "emailVerificationError": "Falha na verificação do e-mail. Por favor, tente novamente.",
+    "logoutSuccess": "Desconectado com sucesso",
+    "changePasswordTitle": "Alterar Senha",
+    "showPassword": "Mostrar senha",
+    "hidePassword": "Ocultar senha",
+    "loginToRegister": "Por favor, faça login para se registrar",
+    "applicationSubmittedSuccess": "Sua candidatura foi enviada com sucesso",
+    "applicationSubmissionFailed": "Falha ao enviar sua candidatura. Por favor, tente novamente."
+  },
+  "HomePage": {
+    "heroTitle1": "Empoderando PMEs Africanas para",
+    "heroTitle2": "o Sucesso Global",
+    "description": "Acesso a financiamento, capacitação, incubação e oportunidades de acesso a mercados através do Programa de Desenvolvimento de PME do Afreximbank. Seu portal para o sucesso nas exportações.",
+    "africa": "ÁFRICA",
+    "diaspora": "DIÁSPORA",
+    "caricom": "CARICOM",
+    "countries": "Países",
+    "smeRegistered": "PMEs Registradas",
+    "jobsCreated": "Empregos Diretos Criados",
+    "exportGrowth": "PMEs Treinadas",
+    "youthOwned": "PMEs Lideradas por Jovens Treinadas",
+    "womenLed": "PMEs Lideradas por Mulheres Treinadas",
+    "titleSection1": "Setores-Chave que Atuamos",
+    "titleSection2": "Sua Jornada para o Sucesso em Exportação começa aqui",
+    "titleSection3": "Passos simples para acessar financiamento e serviços de apoio",
+    "descriptionSection1": "O Afreximbank foca nos setores-chave que impulsionam a transformação econômica e o crescimento das exportações na África.",
+    "cardAgriculture": {
+      "title": "AGRONEGÓCIO",
+      "description": "Agricultura sustentável, produção de alimentos e soluções agrícolas inovadoras."
+    },
+    "cardManufacturing": {
+      "title": "MANUFATURA",
+      "description": "Processamento industrial, produção leve e manufatura com valor agregado."
+    },
+    "cardEnergy": {
+      "title": "ENERGIA RENOVÁVEL",
+      "description": "Geração de energia limpa, serviços sustentáveis e infraestrutura verde."
+    },
+    "cardCreatives": {
+      "title": "INDÚSTRIAS CRIATIVAS E CULTURAIS",
+      "description": "Design, moda, mídia artística e produção criativa inspirada culturalmente."
+    },
+    "cardHospitality": {
+      "title": "HOSPITALIDADE",
+      "description": "Turismo e serviços de hospitalidade focados em experiências."
+    },
+    "cardTransport": {
+      "title": "LOGÍSTICA",
+      "description": "Movimentação de cargas, eficiência da cadeia de suprimentos e redes logísticas integradas."
+    },
+    "cardHealthcare": {
+      "title": "SAÚDE",
+      "description": "Serviços médicos, desenvolvimento farmacêutico e soluções de tecnologia em saúde."
+    },
+    "cardTechnology": {
+      "title": "TECNOLOGIA",
+      "description": "Inovação digital, serviços habilitados por tecnologia e soluções digitais escaláveis."
+    },
+    "cardFinancialServices": {
+      "title": "SERVIÇOS FINANCEIROS / TECNOLOGIA FINANCEIRA (FINTECH)",
+      "description": "Finanças digitais, inovação em pagamentos e serviços financeiros impulsionados por tecnologia."
+    },
+    "cardGoods": {
+      "title": "BENS DE CONSUMO E RETALHO",
+      "description": "Produtos e serviços para consumidores entregues por meio de experiências modernas de varejo."
+    },
+    "cardEducation": {
+      "title": "EDUCAÇÃO TÉCNICA E INDUSTRIAL",
+      "description": "Formação profissional e educação técnica voltada para a indústria, desenvolvendo talentos qualificados."
+    },
+    "cardAutomotive": {
+      "title": "AUTOMOTIVO",
+      "description": "Fabricação de veículos, soluções de mobilidade e tecnologia automotiva."
+    },
+    "cardBecome": {
+      "title": "TORNE-SE PRONTO PARA EXPORTAR",
+      "description": "Obtenha o conhecimento, as ferramentas e o apoio necessários para entrar com confiança em novos mercados."
+    },
+    "cardAccess": {
+      "title": "ACESSE FINANCIAMENTO SOB MEDIDA",
+      "description": "Desbloqueie soluções de financiamento, incluindo financiamento comercial e factoring, para expandir seu potencial de exportação."
+    },
+    "cardGetDigitally": {
+      "title": "SEJA VALIDADO DIGITALMENTE",
+      "description": "Construa confiança com compradores e investidores por meio de KYC digital seguro e verificação empresarial."
+    },
+    "cardConnect": {
+      "title": "CONECTE-SE & EXPANDA SUA REDE",
+      "description": "Junte-se a um ecossistema de PMEs africanas globais para acessar novos mercados, parceiros e cadeias de valor."
+    },
+    "step1": {
+      "title": "Aplicar",
+      "description": "Envie sua aplicação de PME através de nossos intermediários financeiros para acessar financiamento"
+    },
+    "step2": {
+      "title": "Avaliação",
+      "description": "Pontuação de crédito e avaliação de risco apoiada por nossos parceiros"
+    },
+    "step3": {
+      "title": "Aprovação",
+      "description": "Receba a decisão de financiamento e termos"
+    },
+    "step4": {
+      "title": "Apoio",
+      "description": "Acesse incubação contínua e serviços de mercado"
+    },
+    "message": "As PMEs desempenham um papel fundamental no desbloqueio do potencial do nosso continente",
+    "author": "Sra. Kanayo Awani",
+    "authorPosition": "Vice-Presidente Executiva do Banco de Comércio Intra-Africano",
+    "ctaDescriptionSection": "Junte-se a milhares de empresas africanas globais desbloqueando acesso a financiamento, apoio especializado e oportunidades de mercado através dos nossos poderosos programas de crescimento e exportação."
+  },
+  "OurServicesPage": {
+    "heroTitle": "Nossos Serviços",
+    "title": "Serviços Abrangentes para PMEs",
+    "description": "Tudo o que sua PME precisa para prosperar nos mercados africanos e globais, em uma única plataforma integrada.",
+    "cardFinancing": {
+      "title": "Soluções de Financiamento",
+      "description": "Financiamento atacadista para intermediários financeiros para repasse às PMEs",
+      "item1": "Linhas de Crédito",
+      "item2": "Factoring",
+      "item3": "Financiamento Comercial",
+      "item4": "Garantias"
+    },
+    "cardCapacity": {
+      "title": "Desenvolvimento de Capacidades",
+      "description": "Aprimore suas habilidades por meio de cursos online, masterclasses e certificações",
+      "item1": "Incubadoras",
+      "item2": "Workshops",
+      "item3": "Aceleradoras",
+      "item4": "Mentoria"
+    },
+    "cardMarket": {
+      "title": "Acesso ao Mercado",
+      "description": "Conecte-se com feiras comerciais, obtenha apoio à exportação e acesse novos mercados",
+      "item1": "Feiras Comerciais",
+      "item2": "Matching de Exportação",
+      "item3": "Eventos B2B",
+      "item4": "Apoio à Exportação"
+    },
+    "cardPolicy": {
+      "title": "Defesa de Políticas",
+      "description": "Participe de nossa incubadora para mentoria, networking e desenvolvimento de negócios",
+      "item1": "Mentoria",
+      "item2": "Planos de Negócio",
+      "item3": "Networking",
+      "item4": "Entrada no Mercado"
+    },
+    "descriptionSection1": "Junte-se a milhares de empresas africanas desbloqueando financiamento, apoio especializado e acesso ao mercado por meio de nossos poderosos programas de crescimento e exportação."
+  },
+  "EventsPage": {
+    "title": "Eventos",
+    "pastEvents": "Eventos Passados",
+    "upcomingEvents": "Próximos Eventos",
+    "selectYear": "Selecionar ano",
+    "allYears": "Todos os anos",
+    "clearYear": "Limpar",
+    "noEventsFound": "Nenhum {type} encontrado{year}",
+    "for": "para",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "showingEvents": "Mostrando {start} de {total} eventos"
+  },
+  "eventDetailPage": {
+    "title": "Cúpula de Comércio e Investimento de PMEs Africanas 2025",
+    "badge": "Evento Próximo",
+    "description": "Junte-se a nós para um evento exclusivo reunindo PMEs africanas, investidores e líderes da indústria para explorar oportunidades de crescimento e colaboração.",
+    "longDescription": "A Cúpula de Comércio e Investimento de PMEs Africanas 2025 é um evento de primeira linha projetado para conectar pequenas e médias empresas em toda a África com oportunidades de financiamento, recursos de capacitação e soluções de acesso ao mercado.\n\nEsta cúpula abrangente incluirá apresentações principais de líderes da indústria, workshops interativos sobre estratégias de exportação, sessões de networking com parceiros e investidores em potencial, e consultas individuais com intermediários financeiros.\n\nSeja você está procurando expandir seu negócio, acessar novos mercados ou garantir financiamento para crescimento, este evento fornece a plataforma e os recursos necessários para levar sua PME ao próximo nível.",
+    "date": "Data",
+    "time": "Hora",
+    "location": "Local",
+    "aboutEvent": "Sobre Este Evento",
+    "ctaTitle": "Pronto para se juntar a nós?",
+    "ctaDescription": "Não perca esta oportunidade de se conectar com líderes da indústria e levar seu negócio ao próximo nível. Registre-se agora para garantir sua vaga.",
+    "eventsBadge": "EVENTOS",
+    "registerNow": "Registrar agora",
+    "inPartnershipWith": "Em parceria com:",
+    "registrationSuccess": "Você está agora registrado para este evento",
+    "registrationFailed": "Falha ao se registrar para este evento. Por favor, tente novamente.",
+    "loginToRegister": "Por favor, faça login para se registrar neste evento",
+    "alreadyRegistered": "Você já está registrado para este evento"
+  },
+  "financingPage": {
+    "badge": "Soluções de Financiamento",
+    "title": "Desbloqueie Crescimento com",
+    "highlightedTitle": "Acesso a Financiamento",
+    "description": "Acesse soluções abrangentes de financiamento projetadas especificamente para PMEs africanas através de nossos intermediários financeiros. Do financiamento comercial ao capital de crescimento, fornecemos o apoio que você precisa para escalar seu negócio.",
+    "totalFin": "Financiamento Total",
+    "smeFin": "SMEs Treinadas",
+    "successRate": "PMEs Dirigidas por Jovens Treinadas",
+    "countries": "PMEs Dirigidas por Mulheres Treinadas",
+    "services": {
+      "tradeFinance": {
+        "title": "Financiamento Comercial",
+        "description": "Cartas de crédito, garantias comerciais e soluções de financiamento à exportação",
+        "creditLines": "Linhas de Crédito",
+        "factoring": "Factoring",
+        "tradeFinance": "Financiamento Comercial",
+        "guarantees": "Garantias"
+      },
+      "workingCapital": {
+        "title": "Capital de Giro",
+        "description": "Financiamento de curto prazo para despesas operacionais e gestão de inventário",
+        "inventoryFinancing": "Financiamento de Inventário",
+        "accountsReceivable": "Contas a Receber",
+        "seasonalFunding": "Financiamento Sazonal",
+        "cashFlowSupport": "Apoio ao Fluxo de Caixa"
+      },
+      "equipmentFinance": {
+        "title": "Financiamento de Equipamentos",
+        "description": "Financiamento baseado em ativos para máquinas, equipamentos e atualização tecnológica",
+        "machineryLoans": "Empréstimos para Máquinas",
+        "equipmentLeasing": "Leasing de Equipamentos",
+        "technologyUpgrades": "Atualizações Tecnológicas",
+        "assetRefinancing": "Refinanciamento de Ativos"
+      },
+      "growthCapital": {
+        "title": "Capital de Crescimento",
+        "description": "Financiamento de longo prazo para expansão, aquisições e investimentos estratégicos",
+        "businessExpansion": "Expansão de Negócios",
+        "marketEntry": "Entrada em Novos Mercados",
+        "acquisitions": "Aquisições",
+        "strategicInvestments": "Investimentos Estratégicos"
+      }
+    },
+    "financingProducts": "Produtos de Financiamento",
+    "productsDescription": "Nossa gama abrangente de soluções de financiamento é adaptada para atender às suas necessidades específicas, através de nossos intermediários financeiros.",
+    "solutions": {
+      "competitiveRates": {
+        "title": "TAXAS COMPETITIVAS",
+        "description": "Taxas de juros líderes de mercado a partir de 8,5% para PMEs qualificadas"
+      },
+      "fastProcessing": {
+        "title": "PROCESSAMENTO RÁPIDO",
+        "description": "Processo de aprovação rápido com decisões em 10 a 15 dias úteis"
+      },
+      "flexibleTerms": {
+        "title": "TERMOS FLEXÍVEIS",
+        "description": "Prazos de pagamento personalizáveis de 3 meses a 7 anos"
+      },
+      "expertSupport": {
+        "title": "APOIO ESPECIALIZADO",
+        "description": "Gerentes de relacionamento dedicados e serviços de consultoria financeira"
+      },
+      "panAfricanReach": {
+        "title": "ABRANGÊNCIA PAN-AFRICANA",
+        "description": "Financiamento disponível em todos os 54 países africanos"
+      },
+      "riskMitigation": {
+        "title": "Mitigação de Riscos",
+        "description": "Produtos abrangentes de seguro e garantia disponíveis"
+      }
+    },
+    "financingTailored": "Financiamento Sob Medida para PMEs",
+    "financingDescription": "Entendemos os desafios únicos enfrentados pelas PMEs africanas e fornecemos soluções personalizadas para ajudá-las a ter sucesso.",
+    "initialApplication": "Candidatura Inicial",
+    "documentReview": "Revisão de Documentos",
+    "creditAssessment": "Avaliação de Crédito",
+    "approvalTerms": "Aprovação & Termos",
+    "disbursement": "Desembolso",
+    "explore": "Explorar",
+    "impact": "Nosso Impacto",
+    "applicationProcess": "Processo de Candidatura",
+    "processDescription": "Nossos parceiros aplicam um processo simplificado que garante decisões rápidas e acesso ágil ao financiamento."
+  },
+  "contactUsPage": {
+    "title": "Contacte-nos",
+    "description": "Você pode nos contatar por meio de qualquer uma das opções abaixo.",
+    "address": "Endereço da Sede",
+    "addressDescription": "72B Rua El-Maahad El-Eshteraky, Roxy, Heliopolis, Cairo 11341, Egito",
+    "projectOfficeAddress": "Endereço do Escritório do Projeto:",
+    "projectOfficeAddressDescription": "Afreximbank Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    "contactUs": "Contacte-nos",
+    "phoneContact": " +234 808 100 01 43",
+    "contactUsDescription": "+234 808 100 01 43"
+  },
+  "label": {
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "setNewPassword": "Definir Nova Senha",
+    "confirmNewPassword": "Confirmar Nova Senha",
+    "message": "Mensagem",
+    "contactName": "Nome do Contato (Nome e Sobrenome)",
+    "contactTitle": "Título do Contato",
+    "contactPhone": "Telefone do Contato",
+    "companyName": "Nome da Empresa",
+    "websiteURL": "URL do Website",
+    "companyContactName": "Nome do Contato da Empresa",
+    "countryRegistration": "País de Registro",
+    "yearRegistration": "Ano de Registro",
+    "yearEstablished": "Ano de Estabelecimento",
+    "registrationAddress": "Tipo de registro da empresa",
+    "sector": "Foco do Setor",
+    "companyContactEmail": "E-mail do Contato da Empresa",
+    "companyContactPhone": "Telefone do Contato da Empresa",
+    "selectCountry": "Selecione um país",
+    "selectOption": "Selecione uma opção",
+    "descriptionFile": "Se sim, por favor carregue sua licença comercial ou certificado de operação ( Tipos de arquivo permitidos : .png, .jpg, .jpeg, .pdf )",
+    "businessLicense": "Licença comercial / certificado de operação",
+    "companyExport": "Sua empresa exporta?",
+    "aged": "Pertencente a jovens (Idade 18-35)",
+    "complianceDeclarations": "Declarações de Conformidade",
+    "confirmationCompliance": "Confirmo que as informações fornecidas são precisas e verdadeiras",
+    "notConfirmationCompliance": "Sem envolvimento em atividades sancionadas, suborno, lavagem de dinheiro ou financiamento do terrorismo",
+    "memeberAssociation": "É membro de alguma associação?",
+    "descriptionMemeberAssociation": "Se sim, por favor especifique o nome da associação",
+    "male": "Masculino",
+    "female": "Feminino",
+    "total": "Total",
+    "numberEmployee": "Número de funcionários em tempo integral",
+    "founderGender": "Fundador Gênero",
+    "capacityBuilding": "Você participou de algum programa de capacitação do AfrexiMBank?",
+    "afreximbankIATFAttendance": "Você participou do evento do AfrexiMBank IATF?",
+    "placeHolderDescription": "Se sim, especifique qual ano/ edição",
+    "typeSponsorship": "Tipo de patrocínio?",
+    "typeSponsorship1": "Auto -patrocinado",
+    "typeSponsorship2": "Afrexixbank patrocinado",
+    "other": "Outro",
+    "YYYY": "YYYY",
+    "percentage": "%",
+    "businessName": "Nome da Empresa",
+    "businessRegistrationNumber": "Número de Registro / Licença",
+    "adminFirstName": "Nome do Administrador",
+    "adminLastName": "Sobrenome do Administrador",
+    "adminEmail": "E-mail do Administrador",
+    "adminPhone": "Telefone do Administrador",
+    "verificationCode": "Código de Verificação",
+    "soleProprietorship": "Empresa Individual",
+    "limitedCompany": "Empresa Limitada",
+    "partnership": "Parceria",
+    "cooperative": "Cooperativa",
+    "informalUnregistered": "Informal / Não Registrado",
+    "automotive": "Automotivo",
+    "fashion": "Moda",
+    "manufacturing": "Manufatura",
+    "agriculture": "Agricultura",
+    "gastronomy": "Gastronomia",
+    "technology": "Tecnologia",
+    "checkAllThatApply": "(marque todos os que se aplicam):",
+    "femaleOwned": "Propriedade Feminina",
+    "youthOwned": "Propriedade de Jovens (<35 anos)",
+    "ownershipComposition": "Composição da Propriedade:",
+    "trainingNeeds": "Necessidades de treinamento:",
+    "startup": "Inicialização",
+    "accelerator": "Acelerador",
+    "incubator": "Incubadora",
+    "mentorship": "Mentoria",
+    "na": "N/A",
+    "annualRevenueBracket": "Faixa de Receita Anual",
+    "revenue10k50k": "$10K-$50K",
+    "revenue50k250k": "$50K-$250K",
+    "revenue250k1m": "$250K-$1M",
+    "revenue1m10m": "$1M-$10M",
+    "receivedLoanBefore": "Você já recebeu um empréstimo antes?",
+    "loanSourceAndPurpose": "Se sim, por favor especifique a fonte e o propósito",
+    "currentSourceOfFinance": "Fonte atual de financiamento",
+    "savings": "Poupança",
+    "microfinance": "Microfinanças",
+    "bank": "Banco",
+    "govProgram": "Programa Governamental",
+    "informalCredit": "Crédito Informal",
+    "equityInvestor": "Patrimônio/Investidor",
+    "immediateFinancingNeeds": "Você tem necessidades de financiamento imediatas?",
+    "financingType": "Tipo de financiamento necessário?",
+    "debt": "Dívida",
+    "equity": "Patrimônio",
+    "financingPurpose": "Propósito do financiamento?",
+    "workingCapital": "Capital de giro",
+    "equipmentFinancing": "Financiamento de Equipamentos",
+    "inventory": "Inventário",
+    "invoiceFinancing": "Financiamento de Faturas",
+    "fundingNeedDuration": "Necessidade de financiamento atual: (Duração)",
+    "lessThan6Months": "< 6 meses",
+    "6to12Months": "6-12 meses",
+    "1to2Years": "1-2 anos",
+    "2to3Years": "2-3 anos",
+    "fundingNeedAmount": "Necessidade de financiamento atual: (Valor)",
+    "50k100k": "$50K-$100K",
+    "100k500k": "$100K-$500K",
+    "500k1m": "$500K-$1M",
+    "greaterThan1m": "> $1M"
+  },
+  "validation": {
+    "yearMustBe4Digits": "O ano deve ter 4 dígitos.",
+    "yearMustBeInPast": "O ano deve estar no passado.",
+    "requiredField": "Este campo é obrigatório",
+    "invalid": "Entrada inválida",
+    "passwordMinLength": "A senha deve ter pelo menos 8 caracteres",
+    "passwordMismatch": "As senhas não coincidem",
+    "passwordRequirements": "A senha deve ter pelo menos 8 caracteres e conter pelo menos 1 letra maiúscula, 1 letra minúscula, 1 número e 1 caractere especial (@$!%*?&#)",
+    "passwordRequirementMinLength": "Mínimo de 8 caracteres",
+    "passwordRequirementUppercase": "Pelo menos 1 letra maiúscula",
+    "passwordRequirementLowercase": "Pelo menos 1 letra minúscula",
+    "passwordRequirementNumber": "Pelo menos 1 número",
+    "passwordRequirementSpecialChar": "Pelo menos 1 caractere especial (@$!%*?&#)",
+    "passwordStrength": "Força da senha",
+    "passwordStrengthEnter": "Digite uma senha",
+    "passwordStrengthWeak": "Senha fraca",
+    "passwordStrengthMedium": "Senha média",
+    "passwordStrengthStrong": "Senha forte",
+    "passwordMustContain": "Deve conter:",
+    "requirementMet": "- Requisito atendido",
+    "requirementNotMet": "- Requisito não atendido",
+    "recaptchaFailed": "Falha na verificação de segurança. Por favor, tente novamente."
+  },
+  "marketAccessPage": {
+    "badge": "Soluções de Acesso ao Mercado",
+    "title": "Conecte-se com Mercados",
+    "highlightedTitle": "Na África & Além",
+    "description": "Desbloqueie novas oportunidades de negócios através da nossa plataforma abrangente de acesso a mercados. Conecte-se com compradores, fornecedores e parceiros em 54 países africanos e mercados internacionais. De feiras comerciais a marketplaces digitais, fornecemos as ferramentas e o suporte que você precisa para expandir seu alcance.",
+    "marketConnection": "Conexões de Mercado",
+    "exportGrowth": "Crescimento das Exportações",
+    "tradeEvents": "Eventos Comerciais",
+    "countriesReached": "Países Atingidos",
+    "desc1": "Conexões B2B Realizadas",
+    "desc2": "Aumento Médio",
+    "desc3": "Eventos Anuais",
+    "desc4": "Mercados Africanos",
+    "services": {
+      "tradeFairs": {
+        "title": "Feiras & Exposições",
+        "subTitle": "Acesso direto a compradores e parceiros",
+        "description": "Acesso às principais feiras comerciais africanas e internacionais com participação subsidiada",
+        "feat1": "Subsídios para Estandes",
+        "feat2": "Apoio Logístico",
+        "feat3": "Materiais de Marketing",
+        "feat4": "Eventos de Networking"
+      },
+      "b2bMatchmaking": {
+        "title": "Matchmaking B2B",
+        "subTitle": "Conexões comerciais qualificadas",
+        "description": "Plataforma baseada em IA conectando PMEs a potenciais compradores, fornecedores e parceiros",
+        "feat1": "Matching Inteligente",
+        "feat2": "Reuniões Virtuais",
+        "feat3": "Rastreamento de Negócios",
+        "feat4": "Suporte de Follow-up"
+      },
+      "exportServices": {
+        "title": "Serviços de Apoio à Exportação",
+        "subTitle": "Processos de exportação simplificados",
+        "description": "Apoio abrangente em documentação de exportação, conformidade e logística",
+        "feat1": "Apoio em Documentação",
+        "feat2": "Orientação em Conformidade",
+        "feat3": "Coordenação Logística",
+        "feat4": "Certificação de Qualidade"
+      },
+      "digital": {
+        "title": "Mercado Digital",
+        "subTitle": "Presença global 24/7",
+        "description": "Plataforma online que apresenta produtos de PMEs africanas a compradores globais",
+        "feat1": "Catálogo de Produtos",
+        "feat2": "Consultas de Compradores",
+        "feat3": "Gestão de Pedidos",
+        "feat4": "Processamento de Pagamentos"
+      }
+    },
+    "marketServices": "Nossos Serviços de Acesso ao Mercado",
+    "servicesDescription": "Soluções abrangentes para ajudá-lo a alcançar novos mercados e expandir seu negócio",
+    "exportJourney": "Sua Jornada para o Sucesso em Exportação começa aqui",
+    "journey": {
+      "strategic": {
+        "title": "PARCERIAS ESTRATÉGICAS",
+        "description": "Parcerias de longo prazo com grandes corporações e agências governamentais"
+      },
+      "network": {
+        "title": "REDE DE DISTRIBUIDORES",
+        "description": "Acesso a canais de distribuição estabelecidos em mercados africanos"
+      },
+      "ventures": {
+        "title": "JOINT VENTURES",
+        "description": "Joint ventures facilitadas com empresas complementares"
+      },
+      "franchise": {
+        "title": "OPORTUNIDADES DE FRANQUIA",
+        "description": "Apoio à expansão de franquias em mercados africanos"
+      }
+    },
+    "ctaTitle1": "Pronto para Expandir seu",
+    "ctaTitle2": "Alcance de Mercado?",
+    "ctaHighlightedText": "Alcance de Mercado",
+    "ctaDescription": "Junte-se a milhares de PMEs africanas que expandiram seus mercados com sucesso através da nossa plataforma.",
+    "exploreServices": "serviços"
+  },
+  "capacityBuildingPage": {
+    "badge": "Capacitação",
+    "title": "Empoderando PMEs com Habilidades",
+    "highlightedTitle": "para o Crescimento",
+    "description": "Mais do que treinamento, é um investimento estratégico em empreendedores africanos, capacitando-os com as habilidades e a confiança para escalar, competir globalmente e transformar mercados locais em motores de crescimento sustentável.",
+    "empoweringSme": "Empoderando PMEs com Habilidades, Ferramentas e Oportunidades de Crescimento",
+    "descriptionSME": "O componente de Capacitação do Programa de Desenvolvimento de PMEs Exportadoras (ESDP) foi projetado como um instrumento de investimento deliberado nas capacidades técnicas, gerenciais e operacionais das PMEs africanas e de seus facilitadores no ecossistema. Responde à necessidade evidente de intervenções estruturadas e contextuais de capacitação que vão além do treinamento empresarial genérico. Os programas são oferecidos em parceria com instituições técnicas especializadas que possuem histórico comprovado de excelência no desenvolvimento de empresas e na transferência de conhecimento setorial.",
+    "coreBenef": "Beneficiários Principais",
+    "coreBenefDescription": "Impulsionando o Crescimento Inclusivo das PMEs",
+    "cards": {
+      "title1": "PMEs em todos os setores e regiões",
+      "desc1": "De agronegócios à tecnologia, as PMEs são capacitadas para escalar, inovar e gerar empregos sustentáveis.",
+      "title2": "Intermediários financeiros apoiando carteiras de PMEs",
+      "desc2": "Bancos e investidores recebem ferramentas para melhor atender PMEs, garantindo que o financiamento chegue onde gera impacto real.",
+      "title3": "Agências de desenvolvimento de PMEs e associações empresariais",
+      "desc3": "Redes e agências empresariais ampliam o apoio, construindo ecossistemas onde as PMEs podem prosperar."
+    },
+    "trainingArea": "Áreas de Treinamento e Apoio",
+    "trainingAreaDescription": "Nossos programas baseados em desempenho focam em sete competências-chave para preparar as PMEs para expansão local e internacional:",
+    "key1": "Desenvolvimento de Exportação e Facilitação Comercial",
+    "key2": "Gestão Empresarial e Estratégica",
+    "key3": "Captação de Capital e Prontidão para Investimentos",
+    "key4": "Transformação Digital",
+    "key5": "Análise de Viabilidade",
+    "key6": "Gestão Financeira e Governança",
+    "key7": "Estratégia de Marketing",
+    "programs": {
+      "technicalAssistance": {
+        "title": "Assistência Técnica a Intermediários Financeiros (AT a IFs)",
+        "description": "Aprimoramos a capacidade operacional das instituições financeiras para atender efetivamente às PMEs, melhorando suas cadeias de valor de crédito de ponta a ponta. As áreas de foco incluem:",
+        "feat1": "Estratégia de banco para PMEs e desenvolvimento de produtos",
+        "feat2": "Pontuação de crédito e gestão de risco",
+        "feat3": "Carteira de empréstimos e melhorias em MIS",
+        "duration": "Apoio consultivo por 6–12 meses",
+        "delivery": "Presencial, híbrido ou remoto",
+        "note": "Serviço dedicado ao FIS"
+      },
+      "incubatorPrograms": {
+        "title": "Programas de Incubação",
+        "description": "Projetados para startups em estágio inicial (ideação ou conceito), os incubadores oferecem apoio estruturado por meio de:",
+        "feat1": "Validação de conceito e refinamento de modelo de negócios",
+        "feat2": "Mentoria e consultoria setoriais",
+        "feat3": "Aprendizagem entre pares e oportunidades de networking",
+        "duration": "6–12 meses",
+        "delivery": "Presencial, Online ou Híbrido"
+      },
+      "acceleratorPrograms": {
+        "title": "Programas de Aceleração",
+        "description": "Ideais para startups em estágio de crescimento com produto viável ou tração inicial, os aceleradores oferecem:",
+        "feat1": "Reposicionamento estratégico e planejamento de crescimento",
+        "feat2": "Preparação para engajamento com investidores",
+        "feat3": "Facilitação de acesso a mercados e avaliações de prontidão para escalar",
+        "duration": "5–10 meses",
+        "delivery": "Presencial, Online ou Híbrido"
+      }
+    },
+    "programstype": "Tipos de Programas",
+    "delivery": "Entrega",
+    "duration": "Duração",
+    "workshop": "Workshops & Seminários",
+    "workshopDescription1": "Essas intervenções de curta duração são organizadas para aumentar a conscientização temática e estimular o diálogo sobre tópicos de desenvolvimento urgentes. Diferentemente dos intensivos programas de incubação e aceleração, os workshops servem para destilar conhecimento e promover compreensão compartilhada sobre dinâmicas econômicas e industriais.",
+    "workshopDescription2": "Os eventos são geralmente de um dia, focados em setores, e alinhados ao mandato do Afreximbank de desenvolvimento orientado pelo comércio e inclusão financeira."
+  },
+  "policyAdvocacyPage": {
+    "desc1": "Empregos Diretos Criados",
+    "desc2": "PMEs Treinadas",
+    "desc3": "PMEs Dirigidas por Jovens Treinadas",
+    "desc4": "PMEs Dirigidas por Mulheres Treinadas",
+    "badge": "Defesa de Políticas",
+    "title": "Desbloqueando o <highlight>Potencial das PMEs</highlight> Através de Ações Políticas",
+    "description": "Através do Programa de Desenvolvimento de PMEs Exportadoras, o Afreximbank promove reformas políticas que permitem que as PMEs prosperem, impulsionando inovação, competitividade e crescimento sustentável em toda a África.",
+    "empoweringSme": "Avançando o Ambiente Favorável ao Desenvolvimento de PMEs por meio do Engajamento Estratégico em Políticas",
+    "descriptionSME": "No âmbito do Programa de Desenvolvimento de PMEs Exportadoras (ESDP), a Defesa de Políticas constitui um pilar crítico por meio do qual o Afreximbank mobiliza ações estratégicas para remodelar o cenário político que sustenta o desempenho das PMEs em todo o continente africano. Reconhece-se que nenhum ecossistema empreendedor pode prosperar de forma sustentável na ausência de estruturas regulatórias coerentes e capacitadoras.",
+    "pillarDescription": "Através deste pilar, buscamos:",
+    "key1": "Institucionalizar ambientes políticos favoráveis às PMEs",
+    "key2": "Avançar na integração regional e no comércio intra-africano",
+    "key3": "Aumentar a legitimidade das preocupações das PMEs no discurso público",
+    "key4": "Promover a inclusão socioeconômica por meio do apoio às empresas",
+    "coreAdvoc": "Temas Principais de Advocacia",
+    "coreAdvocDescription": "Nossos esforços de advocacia são ancorados na identificação baseada em evidências de gargalos políticos e ineficiências institucionais.",
+    "coreAdvocDescription2": " As áreas de foco incluem, mas não se limitam a:",
+    "cards": {
+      "title1": "Reforma Tributária",
+      "desc1": "Defendendo regimes fiscais simplificados e progressivos, propícios à sustentabilidade das PMEs",
+      "title2": "Direitos de Propriedade Intelectual",
+      "desc2": "Fortalecimento de estruturas de proteção de PI para incentivar a inovação e salvaguardar as empresas locais",
+      "title3": "Custos de Conformidade Regulatória",
+      "desc3": "Engajando formuladores de políticas para simplificar processos de registro e conformidade empresarial",
+      "title4": "Harmonização Transfronteiriça",
+      "desc4": "Promovendo coerência regional em políticas de comércio e investimento",
+      "title5": "Intervenções Políticas Específicas por Setor",
+      "desc5": "Facilitando soluções políticas sob medida para setores estratégicos e clusters industriais"
+    }
+  },
+  "registerPage": {
+    "title": "Registre sua PME",
+    "step1": {
+      "title": "Perfil individual",
+      "description": "Por favor, forneça suas informações pessoais"
+    },
+    "step2": {
+      "title": "Perfil da Empresa",
+      "description": "Por favor, forneça as informações da sua empresa"
+    },
+    "step3": {
+      "title": "Informações do Negócio",
+      "description": "Por favor, forneça as informações do seu negócio"
+    },
+    "step4": {
+      "title": "Declarações de Conformidade",
+      "description": "Por favor, confirme as Declarações de Conformidade"
+    }
+  },
+  "404Page": {
+    "title": "Página Não Encontrada",
+    "description": "Desculpe, a URL solicitada não foi encontrada neste servidor. Por favor, volte à página inicial!"
+  },
+  "signupPage": {
+    "title": "Registe a sua PME",
+    "heroTitle1": "Empoderando",
+    "heroTitle2": "PMEs Africanas",
+    "heroTitle3": "para o Sucesso",
+    "heroTitle4": "Global",
+    "businessName": "Nome da Empresa",
+    "businessNamePlaceholder": "Nome da Empresa",
+    "countryOfRegistration": "País de Registo",
+    "businessRegistrationNumber": "Número de Registo Comercial / Licença",
+    "businessRegistrationNumberPlaceholder": "Número de Registo Comercial / Licença",
+    "adminFirstName": "Nome do Administrador",
+    "adminFirstNamePlaceholder": "Nome do Administrador",
+    "adminLastName": "Apelido do Administrador",
+    "adminLastNamePlaceholder": "Apelido do Administrador",
+    "adminEmail": "E-mail do Administrador",
+    "adminEmailPlaceholder": "E-mail do Administrador",
+    "adminPhone": "Telefone do Administrador",
+    "password": "Palavra-passe",
+    "passwordPlaceholder": "Palavra-passe",
+    "confirmPassword": "Confirmar Palavra-passe",
+    "confirmPasswordPlaceholder": "Confirmar Palavra-passe",
+    "acceptTerms": "Li e aceito os Termos e Condições",
+    "acceptTermsPrefix": "Li e aceito os",
+    "termsAndConditions": "Termos e Condições",
+    "acceptPrivacy": "Li e aceito a Política de Privacidade",
+    "acceptPrivacyPrefix": "Li e aceito a",
+    "privacyPolicy": "Política de Privacidade",
+    "signupButton": "Registar",
+    "haveAccount": "Já tem uma conta?",
+    "signIn": "Iniciar sessão"
+  },
+  "profilePage": {
+    "title": "Perfil do usuário",
+    "profileDetails": "Detalhes do perfil",
+    "changePasswordTitle": "Alterar a senha",
+    "editProfile": "Editar perfil",
+    "administratorInfoTitle": "Informações do administrador",
+    "companyInfoTitle": "Informações da empresa",
+    "complianceSectionTitle": "Declarações de conformidade",
+    "allowedImageTypes": "Tipos de arquivos permitidos: .png, .jpg, .jpeg",
+    "profileAvatar": "Avatar do perfil"
+  },
+  "faqPage": {
+    "title": "Perguntas Frequentes (FAQs)",
+    "q1": "O que é o Portal de PME do Afreximbank?",
+    "a1": "O Portal de PME do Afreximbank é um balcão único onde PME africanas e da Diáspora podem acessar informações e recursos essenciais para crescer e integrar-se de forma sustentável nas cadeias de valor regionais e globais.",
+    "q2": "Que benefícios uma PME ou empresa pode obter da plataforma?",
+    "a2": "O portal permite que PMEs e empresas acessem diversas oportunidades, incluindo capacitação e desenvolvimento de competências, acesso a mercados, networking, informações comerciais e oportunidades de financiamento sob o Programa de Desenvolvimento de PMEs do Afreximbank.",
+    "q3": "Como uma PME pode obter o máximo valor da plataforma?",
+    "a3": "Uma PME pode obter o máximo valor ao registrar-se e fornecer informações básicas de Conheça Seu Cliente (KYC). Depois disso, está tudo pronto!",
+    "q4": "Preciso pagar para acessar os recursos e benefícios da plataforma?",
+    "a4": "O registro na plataforma é gratuito, e você terá acesso a muitos recursos e oportunidades valiosas para expandir o seu negócio. No entanto, alguns programas ou recursos, incluindo os oferecidos por terceiros, podem ser pagos ou oferecidos com desconto.",
+    "q5": "Como posso acessar financiamento como PME?",
+    "a5": "O Afreximbank fornece financiamento às PMEs por meio de intermediários financeiros locais (incluindo bancos comerciais, bancos de desenvolvimento locais e regionais, bancos de investimento, bancos de microfinanças e outras instituições financeiras não bancárias regulamentadas) em toda a África e na Diáspora. Trabalhamos com eles para expandir nossas intervenções financeiras e alcançar diversas pequenas empresas, incluindo a sua. Você pode consultar a lista de intermediários financeiros no seu país para iniciar sua jornada de financiamento.",
+    "q6": "Como o Afreximbank define as PMEs e seus beneficiários?",
+    "a6": "Embora existam várias definições de PMEs entre países, instituições e regiões, a definição holística do Afreximbank considera PMEs como empresas com receita anual que não ultrapasse USD 10.000.000 ou seu equivalente em moeda local.",
+    "q7": "Vocês consideram setores específicos?",
+    "a7": "O programa de PME do Afreximbank é agnóstico em relação aos setores, mas prioriza os seguintes: Agricultura/Agroprocessamento, Manufatura, Tecnologia, Saúde, Serviços Financeiros/Fintechs, Indústrias Criativas e Culturais, Logística, Bens de Consumo e Varejo, Hospitalidade, Energia Renovável, Automotivo, Educação Técnica e Industrial e Ed-Tech.",
+    "q8": "Ouvi falar do Africa Trade Gateway. Pode explicar?",
+    "a8": "O Africa Trade Gateway (ATG) é um ecossistema digital de “janela única” criado pelo Afreximbank e pelo Secretariado da AfCFTA para simplificar e impulsionar o comércio intra-africano. Ele integra cinco plataformas principais: MANSA para due diligence empresarial, PAPSS para pagamentos transfronteiriços em moedas locais, TRADAR para inteligência de mercado e networking, ATEX para comércio digital B2B e ATG Connect para coordenação logística. Juntas, essas ferramentas conectam compradores e fornecedores verificados em todo o continente e apoiam a implementação prática da AfCFTA, reduzindo fricções no comércio.",
+    "q9": "Que tipos de programas de formação são oferecidos?",
+    "a9": "Uma ampla gama de programas de capacitação para apoiar o crescimento empresarial está disponível no portal. Isso inclui workshops, aceleradoras e incubadoras, oferecidos virtualmente, presencialmente ou em formato híbrido. Cada programa consiste em cursos especializados focados em setores, países, regiões, corredores comerciais ou grupos específicos, como jovens ou mulheres.",
+    "q10": "Os cursos ou webinars estão disponíveis online?",
+    "a10": "Sim, a maioria dos programas de capacitação — incluindo workshops, aceleradoras e incubadoras — é oferecida virtualmente ou em formato híbrido. O formato de entrega é sempre indicado no edital de candidatura ou em outras comunicações.",
+    "q11": "Recebo um certificado após concluir a formação?",
+    "a11": "Sim, certificados são concedidos para todos os programas de capacitação, exceto workshops. Programas como aceleradoras e incubadoras são certificados conjuntamente pelo Afreximbank e pela organização parceira responsável pela formação."
+  },
+  "training": {
+    "title": "Treinamento",
+    "searchPlaceholder": "Pesquisar no catálogo",
+    "formatFilter": "Formato",
+    "allFormats": "Todos os formatos",
+    "tagFilter": "Tag",
+    "allTags": "Todas as tags",
+    "noCoursesFound": "Nenhum curso encontrado correspondendo aos seus critérios.",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "discover": "Descobrir",
+    "course": "Curso",
+    "instructor": "Instrutor:",
+    "overview": "Visão geral",
+    "skillsGained": "Habilidades Adquiridas",
+    "courseOutline": "Estrutura do Curso",
+    "skillsGainedTitle": "Ao final deste curso, você será capaz de:",
+    "noCourseOutline": "Nenhuma estrutura de curso disponível.",
+    "sessionDate": "Data da sessão",
+    "format": "Formato",
+    "location": "Localização",
+    "slotsAvailable": "Vagas disponíveis",
+    "application": "Candidatura",
+    "agreeTerms": "Concordo com os Termos e Condições.",
+    "readPrivacy": "Li a Política de Privacidade.",
+    "courseUpdates": "Envie-me atualizações de cursos e boletins informativos.",
+    "submitApplication": "Enviar Candidatura",
+    "formatHybrid": "Híbrido",
+    "formatInPerson": "Presencial",
+    "formatVirtual": "Virtual",
+    "formatFaceToFace": "Cara a cara",
+    "mustLoginToApply": "Você deve estar conectado para se candidatar a este curso"
+  }
+}

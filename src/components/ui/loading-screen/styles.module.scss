@@ -1,0 +1,35 @@
+@for $i from 0 to 3 {
+  .dot:nth-child(#{$i + 1}) {
+    border-radius: 100%;
+    height: 1.3rem;
+    width: 1.3rem;
+    aspect-ratio: 1;
+    background-color: rgba(0, 115, 110, 0.2);
+    animation: 3s ease-in-out infinite bg-transition;
+    animation-delay: $i * 0.5s;
+  }
+}
+
+.beat {
+  animation: 3s ease-in-out 0s infinite beat;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bg-transition {
+  0%,
+  100% {
+    background-color: rgba(0, 115, 110, 0.2);
+  }
+  50% {
+    background-color: rgb(0, 115, 110);
+  }
+}
